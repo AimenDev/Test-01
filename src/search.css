@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-engine {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .search-engine input {
+    width: 50%;
+    height: 40px;
+    padding: 2px 15px;
+    border: 2px solid hsl(162, 78%, 52%);
+    font-size: 22px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff;
+    color: hsl(233, 14%, 22%);
+  }
+  .search-engine button {
+      width: 50% - 90px; /* To make the search field take up exactly half of its parent */
+      height: 43px;
+      
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-color: transparent;
+      border: 2px solid hsl(162, 78%, 52%);
+      border-radius: 5px;
+      outline: none;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: center;
+      padding: 5px ;
+  }
+  .search-engine button .btn{
+      color: hsl(163, 19%, 93%);
+      padding-left: 7px;
+  }
+  .search-engine button:hover{
+      background-color: hsl(162, 78%, 52%);
+      transition: 0.1s all ease-in;
+      cursor: pointer;
+  }
